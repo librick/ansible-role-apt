@@ -1,0 +1,15 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: apt
+  author: librick
+  description: Install apt packages.
+  license: "MIT"
+  min_ansible_version: "2.14.1"
+  platforms:
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - apt

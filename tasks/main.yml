@@ -1,0 +1,7 @@
+---
+- name: Ensure apt packages are installed.
+  ansible.builtin.apt:
+    name: "{{ apt_packages_to_install | default([]) }}"
+    state: present
+  become: true
+  become_user: root

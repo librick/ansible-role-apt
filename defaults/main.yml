@@ -1,0 +1,2 @@
+apt_packages_to_install:
+  - cowsay
